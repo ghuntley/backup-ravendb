@@ -71,3 +71,132 @@ This console application is designed to run locally on a RavenDB server and will
     2014-12-28 15:56:32.667 +11:00 [Debug] [28/12/2014 4:56:31 AM] Esent Backup Complete
     2014-12-28 15:56:32.754 +11:00 [Information] Completed operation "system": "Database Backup" in 00:00:01.9075050 (1907 ms)
     2014-12-28 15:56:32.765 +11:00 [Information] Databases: ["Hello", "World", "system"] were successfully backed up.
+
+
+    > tree
+    Folder PATH listing for volume SYSTEM
+    Volume serial number is 0000000A 8488:B2
+    C:.
+    └───REMOVED
+        ├───Hello
+        │   ├───2014-12-28-04-17-02Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-18-49Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-28-04Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-47-45Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-48-32Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-49-06Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-51-51Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-53-53Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-56-03Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   └───2014-12-28-04-56-26Z
+        │       ├───IndexDefinitions
+        │       ├───Indexes
+        │       │   └───1
+        │       └───new
+        ├───system
+        │   ├───2014-12-28-04-47-50Z
+        │   ├───2014-12-28-04-48-36Z
+        │   ├───2014-12-28-04-49-10Z
+        │   ├───2014-12-28-04-51-57Z
+        │   ├───2014-12-28-04-53-57Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   ├───2014-12-28-04-56-07Z
+        │   │   ├───IndexDefinitions
+        │   │   ├───Indexes
+        │   │   │   └───1
+        │   │   └───new
+        │   └───2014-12-28-04-56-30Z
+        │       ├───IndexDefinitions
+        │       ├───Indexes
+        │       │   └───1
+        │       └───new
+        └───World
+            ├───2014-12-28-04-17-04Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-18-51Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-28-06Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-47-47Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-48-34Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-49-09Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-51-54Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-53-55Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            ├───2014-12-28-04-56-05Z
+            │   ├───IndexDefinitions
+            │   ├───Indexes
+            │   │   └───1
+            │   └───new
+            └───2014-12-28-04-56-28Z
+                ├───IndexDefinitions
+                ├───Indexes
+                │   └───1
+                └───new
