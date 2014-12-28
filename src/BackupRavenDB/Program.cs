@@ -46,7 +46,7 @@ namespace BackupRavenDB
 
         private static async Task MainAsync(string[] args)
         {
-            logger.Information("Retreiving list of databases on server: {url}", store.Url);
+            logger.Information("Retrieving list of databases on server: {url}", store.Url);
 
             var databases = await store.AsyncDatabaseCommands.GlobalAdmin.GetDatabaseNamesAsync(Int32.MaxValue);
             logger.Information("Found the following databases: {databases}", databases);
